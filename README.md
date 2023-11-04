@@ -11,10 +11,10 @@
 #### make all
 
 ## 4. 도커 컨테이너 내부에서 RIP 설정하기
-#### docker attach R1
-#### docker attach R2
-#### docker attach R3
-#### docker attach R4
+#### docker exec –it R1 /bin/bash
+#### docker exec –it R2 /bin/bash
+#### docker exec –it R3 /bin/bash
+#### docker exec –it R4 /bin/bash
 
 ## 5. 도커 컨테이너에서 vtysh 설정하기
 
